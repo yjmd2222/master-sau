@@ -81,7 +81,7 @@ def train(hyp,  # path/to/hyp.yaml or hyp dictionary
 
     # Hyperparameters
     if isinstance(hyp, str):
-        with open(hyp) as f:
+        with open(hyp, encoding='utf-8') as f:
             hyp = yaml.safe_load(f)  # load hyps dict
     LOGGER.info(colorstr('hyperparameters: ') + ', '.join(f'{k}={v}' for k, v in hyp.items()))
 
