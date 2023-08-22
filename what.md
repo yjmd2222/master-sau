@@ -1,0 +1,1 @@
+AttributeError: 'FreeTypeFont' object has no attribute 'getsize'
