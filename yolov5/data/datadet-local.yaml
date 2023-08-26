@@ -1,0 +1,10 @@
+# Dataset paths relative to the train folder
+path:  C:/Users/jinmo/Documents/GitHub/tp2/data/images
+train: .
+val:   .
+
+nc: 23
+names: 
+  ['m', 'm-ped', 'm-helmet', 'm-cross', 'm-red', 'm-stop', 'm-crosswalk',
+  'b', 'b-carrier', 'b-ped', 'b-helmet', 'b-cross', 'b-red', 'b-stop', 'b-crosswalk',
+  'k', 'k-carrier', 'k-ped', 'k-helmet', 'k-cross', 'k-red', 'k-crosswalk', 'k-couple']
