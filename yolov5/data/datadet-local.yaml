@@ -1,5 +1,5 @@
 # Dataset paths relative to the train folder
-path:  C:/Users/jinmo/Documents/GitHub/tp2/data/images
+path:  C:/Users/jinmo/Documents/GitHub/tp2/data/irtest/images/
 train: .
 val:   .
 
